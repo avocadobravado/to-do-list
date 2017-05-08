@@ -11,7 +11,7 @@ $(function() {
     var userInput = $("input#userInput").val();
     var newToDo = new toDo (userInput);
 
-    $("ol#displayToDo").append('<li>' + newToDo.itemInput + '</li>');
+    $("ol#displayToDo").append('<li>' + newToDo.itemInput + '</li>').children(":last").hide().fadeIn("slow");
     $("input#userInput").val("");
 
     $("ol#displayToDo").on("click","li", function(){

@@ -1,15 +1,16 @@
+/*Global*/
+
 body {
-  font-size: 18px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../img/poop_pattern.jpg");
+  color: #4f4a4c;
 }
 
-.displayToDo {
-  display: none;
-}
-
-.btn {
-  border: none;
-  height: 32px;
-  margin-top: -4px;
+h1 {
+  font-family: 'Baloo', serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 li {
@@ -21,10 +22,48 @@ li {
   padding-left: 30px;
 }
 
+hr {
+  border-top: solid #6d6769 1px;
+  width: 80%;
+}
+
+.container {
+  background: rgba(255, 255, 255, .9);
+  border-radius: 6px;
+  margin-top: 30px;
+  padding-bottom: 25px;
+  width: 90%;
+}
+
+/*Display ToDo Div*/
+
+.displayToDo {
+  display: none;
+}
+
+.btn {
+  border: none;
+  margin-top: 16px;
+  background-color: #c4a287;
+  color: white;
+  font-weight: bold;
+}
+
 #toDoLabel {
   margin-left: 15px;
+  text-align: center;
 }
 
 #toDoHeader {
   margin-left: 10px;
+}
+
+#complete {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.em-poop {
+  font-size: 30px;
 }
