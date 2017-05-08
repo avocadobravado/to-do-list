@@ -1,0 +1,30 @@
+body {
+  font-size: 18px;
+}
+
+.displayToDo {
+  display: none;
+}
+
+.btn {
+  border: none;
+  height: 32px;
+  margin-top: -4px;
+}
+
+li {
+  font-size: 19px;
+  cursor: pointer;
+  list-style-type: none;
+  background-image: url('../img/poop.png');
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+#toDoLabel {
+  margin-left: 15px;
+}
+
+#toDoHeader {
+  margin-left: 10px;
+}
